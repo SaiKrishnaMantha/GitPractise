@@ -1,0 +1,60 @@
+Title AIDIFP_3;
+
+Calculation 3 10000 80;   /* 500 ms gives 4 events */
+
+Declarations
+
+Di TDi1, TDi2, TDi3, TDi4, TDi5, TDi6, TDi7, TDi8, TDi9, TDi10, TDi11, TDi12, TDi13, TDi14, TDi15, TDi16, TDi17, TDi18, TDi19, TDi20, TDx1, TDx2, TDx3;
+Ai TAi1, TAi2, TAi3, TAi4, TAi5, TAi6, TAi7, TAi8, TAi9, TAi10, TAi11, TAi12, TAi13, TAi14, TAi15, TAi16, TAi17, TAi18, TAi19, TAi20, TAx1,TAx2, TAx3;
+FPAi FAi1, FAi2, FAi3, FAi4, FAi5, FAi6,FAi7, FAi8, FAi9, FAi10, FAi11,FAi12,FAicount;
+Ai AO1, AO2, AO3, AO4, AO5;
+Di DO1, DO2, DO3, DO4, DO5;
+Int cnt, counter;
+Float fp;
+Program
+
+
+{
+cnt = cnt+1;
+SetFPAiValue(FAicount, 10.23);
+
+if (counter == 1) 
+{
+TDi1 = !TDi1;
+TDi2 = !TDi1;
+TDi3 = !TDi1;
+TDi4 = !TDi1;
+TDi5 = !TDi1;
+TDi6 = !TDi1;
+TDi7 = !TDi1;
+TDi8 = !TDi1;
+TDi9 = !TDi1;
+TDi10 = !TDi1;
+
+
+
+TAi1 = cnt;
+TAi2 = cnt;
+TAi3 = cnt;
+TAi4 = cnt;
+TAi5 = cnt;
+TAi6 = cnt;
+TAi7 = cnt;
+TAi8 = cnt;
+TAi9 = cnt;
+TAi10 = cnt;
+
+
+
+FAi1 = FP_Add (FAi1, 2.5);
+FAi2 = FAi1;
+FAi3 = FAi1;
+FAi4 = FAi1;
+FAi5 = FAi1;
+FAi6 = FAi1;
+
+
+
+}
+
+}
